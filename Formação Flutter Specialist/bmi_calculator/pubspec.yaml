@@ -1,0 +1,14 @@
+name: bmi_calculator
+description: This is the Flutter Specialist Formation's BMI Calculator challenge project from Digital Innovation One
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+# dependencies:
+# path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
