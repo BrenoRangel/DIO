@@ -4,11 +4,22 @@ version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: ">=3.0.5 <4.0.0"
+  sdk: ">=3.0.6 <4.0.0"
 
-# dependencies:
-# path: ^1.8.0
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^5.1.0
+  get: ^4.6.5
+  font_awesome_flutter: ^10.5.0
+  gap: ^3.0.1
+  material_symbols_icons:
 
 dev_dependencies:
-  lints: ^2.0.0
-  test: ^1.21.0
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

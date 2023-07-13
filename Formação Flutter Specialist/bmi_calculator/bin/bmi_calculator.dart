@@ -46,7 +46,7 @@ void main(List<String> arguments) {
   bmi = BMI.calculate(person.weight, person.height);
   classification = BMI.classify(bmi);
 
-  final formattedClassification = colorizeClassification(classification);
+  final formattedClassification = getTerminalColoredTextByClassification(classification);
 
   print("\nOutput: ${horizontalBar * (terminalLength - "Output".length)}\n");
   print("Name: ${person.name}");

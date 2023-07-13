@@ -1,6 +1,6 @@
 import 'package:bmi_calculator/bmi/bmi.dart';
 import 'package:bmi_calculator/bmi/bmi_classification.dart';
-import 'package:test/test.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   test("Given a persons's weight and height, calculate it's BMI", () {

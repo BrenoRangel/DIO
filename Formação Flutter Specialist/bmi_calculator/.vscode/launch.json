@@ -8,6 +8,12 @@
             "name": "Launch",
             "request": "launch",
             "type": "dart",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "Launch (Console)",
+            "request": "launch",
+            "type": "dart",
             "program": "bin/bmi_calculator.dart"
         },
         {
@@ -23,6 +29,13 @@
             "configurations": [
                 "Run all Tests",
                 "Launch"
+            ]
+        },
+        {
+            "name": "Test and Launch (Console)",
+            "configurations": [
+                "Run all Tests",
+                "Launch (Console)"
             ]
         }
     ]
