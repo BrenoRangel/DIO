@@ -13,7 +13,10 @@ dependencies:
   get: ^4.6.5
   font_awesome_flutter: ^10.5.0
   gap: ^3.0.1
-  material_symbols_icons:
+  material_symbols_icons: ^4.2665.0
+  sqflite: ^2.2.8+4
+  sqflite_common_ffi_web: ^0.3.6
+  shared_preferences: ^2.2.0
 
 dev_dependencies:
   flutter_test:

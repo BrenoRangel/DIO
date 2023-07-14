@@ -2,17 +2,26 @@
 
 This is the [Flutter Specialist Formation](https://www.dio.me/bootcamp/formacao-flutter-specialist)'s BMI Calculator challenge project from [Digital Innovation One](https://dio.me)
 
-!["Program screem capture"](./capture.png)
+Flutter version:  
+!["Program screem capture"](./flutter_capture.png)
+
+Dart only version:  
+!["Program screem capture"](./dart_capture.png)
 
 ## Challenge Checklist
-☑ Create Person class with Name, Weight and Height​
 
-☑ Read input from Terminal​
+✅ Write data to Hive or SQLite
 
-☑ Exceptions Handling
+✅ Read configuration data using shared_preferences package
 
-☑ Calculate BMI​
+✅ Create Person class with Name, Weight and Height​
 
-☑ Print calculation result on screen
+✅ Read input from Terminal​
 
-☑ Tests
+✅ Exceptions Handling
+
+✅ Calculate BMI​
+
+✅ Print calculation result on screen
+
+✅ Tests

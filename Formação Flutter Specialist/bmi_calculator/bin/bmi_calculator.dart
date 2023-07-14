@@ -37,10 +37,10 @@ void main(List<String> arguments) {
   if (double.tryParse(weightInput) == null) throw InvalidPersonWeightException(weightInput);
   if (double.tryParse(heightInput) == null) throw InvalidPersonHeightException(heightInput);
 
-  person = (
+  person = Person(
     name: nameInput,
     weight: double.tryParse(weightInput)!,
-    height: double.tryParse(heightInput)!
+    height: double.tryParse(heightInput)!,
   );
 
   bmi = BMI.calculate(person.weight, person.height);

@@ -1,33 +1,26 @@
 import 'package:bmi_calculator/pages/home_page.dart';
+import 'package:bmi_calculator/persistence/shared_preferences.dart';
+import 'package:bmi_calculator/persistence/sqflite.dart';
+import 'package:bmi_calculator/utils/theming.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 
-void main() {
+void main() async {
+  await initDb();
+  await initPreferences();
   runApp(const MyApp());
 }
-
-const seedColor = Colors.blue;
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    var themeData = ThemeData(
-      useMaterial3: true,
-      colorScheme: ColorScheme.fromSeed(
-        seedColor: seedColor,
-        brightness: Brightness.light,
-      ),
-    );
     return GetMaterialApp(
-      title: 'BMI Calculator',
+      title: "$kAppTitle",
       debugShowCheckedModeBanner: false,
-      theme: themeData.copyWith(
-        textTheme: GoogleFonts.mulishTextTheme(themeData.textTheme),
-      ),
-      home: const MyHomePage(),
+      theme: theme,
+      home: const HomePage(),
     );
   }
 }
