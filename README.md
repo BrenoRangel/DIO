@@ -20,3 +20,7 @@ This repository aims to track my Learning Path at [Digital Innovation One (DIO)
     - [Mentoria extra #3 - Azure for Developers: Overview](https://youtu.be/mvLNZL6ZSDw)
     - [Mentoria extra #4 - Diversidade na NTT Data](https://youtu.be/sTXfqHSb_UQ)
     - [Projeto NTT DATA - Graduação: Como se preparar para processos seletivos na NTT DATA](https://youtu.be/v5Eyou2xWOs)
+
+- ### [Formação Flutter Specialist](https://www.dio.me/bootcamp/formacao-flutter-specialist)
+
+    - [BMI Calculator](Formação%20Flutter%20Specialist/bmi_calculator/)
