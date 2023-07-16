@@ -1,7 +1,7 @@
 # Digital Innovation One
 
 This repository aims to track my Learning Path at [Digital Innovation One (DIO)
-](https://dio.me) and my attempt to get hired by [NTT Data Brasil](https://br.nttdata.com/)
+](https://dio.me)
 
 ## Courses I've applied for
 
@@ -30,3 +30,5 @@ This repository aims to track my Learning Path at [Digital Innovation One (DIO)
     - [BMI Calculator App](Formação%20Flutter%20Specialist/bmi_calculator/) - SQLite
 
     - [Address Manager App](Formação%20Flutter%20Specialist/address_manager/) - GraphQL
+
+    - [Contacts Manager App](Formação%20Flutter%20Specialist/contacts_manager/) - GraphQL
