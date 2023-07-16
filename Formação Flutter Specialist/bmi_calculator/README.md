@@ -1,6 +1,6 @@
-# DIO's BMI Calculator
+# DIO's BMI Calculator challenge
 
-This is the [Flutter Specialist Formation](https://www.dio.me/bootcamp/formacao-flutter-specialist)'s BMI Calculator challenge project from [Digital Innovation One](https://dio.me)
+This is the [Flutter Specialist Formation](https://www.dio.me/bootcamp/formacao-flutter-specialist)'s BMI Calculator challenge answer project from [Digital Innovation One](https://dio.me)
 
 Flutter version:  
 !["Program screem capture"](./flutter_capture.png)

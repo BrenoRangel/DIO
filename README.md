@@ -23,4 +23,10 @@ This repository aims to track my Learning Path at [Digital Innovation One (DIO)
 
 - ### [Formação Flutter Specialist](https://www.dio.me/bootcamp/formacao-flutter-specialist)
 
-    - [BMI Calculator](Formação%20Flutter%20Specialist/bmi_calculator/)
+    #### Challenges
+
+    - [Intro App](Formação%20Flutter%20Specialist/app/)
+
+    - [BMI Calculator App](Formação%20Flutter%20Specialist/bmi_calculator/) - SQLite
+
+    - [Address Manager App](Formação%20Flutter%20Specialist/address_manager/) - GraphQL
